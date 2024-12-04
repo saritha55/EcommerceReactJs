@@ -55,9 +55,6 @@
     color: #ff4141;
 
 }
-.productdisplay-right-description{
-    font-size: 14px;
-}
 .productdisplay-right-size h1{
     margin-top: 55px;
     color: #656565;
@@ -77,7 +74,6 @@
     border: 1px solid #ebebeb;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 12px;
 }
 .productdisplay-right button{
     padding: 14px 30px;
@@ -90,10 +86,4 @@
     border: none;
     outline: none;
     cursor: pointer;
-}
-.productdisplay-right-category{
-    margin-top: 10px;
-}
-.productdisplay-right-category span{
-    font-weight: 600;
 }
