@@ -1,4 +1,5 @@
-import React, { useState, useRef, useContext } from 'react'
+import React, { useContext } from 'react'
+import { useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
@@ -17,7 +18,6 @@ const Navbar = () => {
         <img src={logo} alt="" />
         <p>SHOPPER</p>
       </div>
-      <img src={logo} alt="" />
       <ul ref={menuRef} className="nav-menu">
         <li onClick={()=>{setMenu("shop")}} > <Link  style={{ textDecoration: 'none'}} to='/'>Shop</Link> {menu==="shop"?<hr/>:<></>} </li>
         <li onClick={()=>{setMenu("mens")}}><Link style={{ textDecoration: 'none'}} to='/mens'>Men </Link>{menu==="mens"?<hr/>:<></>}</li>
