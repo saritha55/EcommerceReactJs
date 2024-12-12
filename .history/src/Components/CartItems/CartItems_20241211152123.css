@@ -75,7 +75,7 @@
     width: 464px;
     margin-top: 15px;
     padding-left: 20px;
-    height: 48px;
+    height: 45px;
     background: #eaeaea;
 
 }
@@ -88,8 +88,8 @@
     height: 45px;
 }
 .cartitems-promobox button{
-    width: 130px;
-    height: 45px;
+    width: 170px;
+    height: 58px;
     font-size: 13px;
     background: black;
     color: white;
